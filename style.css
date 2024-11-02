@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #191919;
+    color: #BAFF39;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #6E6E6E;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    /* opacity: 0; */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    gap: 20px;
+}
+
+/* @keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+/* .card {
+    background-color: #FD8B51;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-bottom: 20px;
+} */
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-photo {
+    width: 150px; /* Increased size */
+    height: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.profile-photo:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);  */
+    /* Enhanced shadow */
+}
+
+/* Floating Social Media Strip */
+/* Floating Social Media Strip */
+.social-media-strip {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 0;
+    transform: translateY(-50%); /* Adjust to exact center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #0C3C78; /* Background for the sidebar */
+    padding: 10px 5px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.social-media-strip a {
+    font-size: 1.5em; /* Icon size */
+    color: #FFC107;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.social-media-strip a:hover {
+    color: #FF867C; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+
+.social-media-strip a:hover {
+    color: #FF867C; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+
+/* .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: #FF6B5E;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 160px;
+    justify-content: center;
+}
+
+.skill-item i {
+    font-size: 1em;
+    color: #FFF;
+}
+
+.skill-item:hover {
+    background-color: #FF867C;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+} */
+#skills-tools-section h2 {
+    text-align: center;
+    color: #090030;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.skills-tools-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #0C3C78; 
+    border-radius: 10px;
+}
+
+.skills-side, .tools-side {
+    flex: 1;
+}
+
+/* .skills-side h3, .tools-side h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+} */
+
+.skills-grid, .tools-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+/* .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    color: #FFC107;
+    background-color: #FF6B5E;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+}
+
+.skill-item i {
+    font-size: 1.5em;
+    color: #FFF;
+} */
+
+/* .skill-item:hover {
+    background-color: #FF867C;
+    transform: scale(1.05);
+} */
+
+/* Divider Line */
+.divider-line {
+    width: 2px;
+    background-color: #6b7177;
+    opacity: 1;
+    margin: 10px 0;
+    align-self: stretch; /* Makes it full height between the two sections */
+}
+
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #090030;
+    width: 40%;
+    background-color: #FFC107;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #6b7177; 
+}
+
+p, ul {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #FFC107;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #DD2E18;
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #0C3C78;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li i {
+    color: #FFC107;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+.container.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .certificate {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .certificate img {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  #close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+
