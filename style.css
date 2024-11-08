@@ -26,22 +26,6 @@ body {
     gap: 20px;
 }
 
-/* @keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
-
-/* .card {
-    background-color: #FD8B51;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    margin-bottom: 20px;
-} */
-
 .intro-content {
     display: flex;
     align-items: center;
@@ -62,7 +46,6 @@ body {
     /* Enhanced shadow */
 }
 
-/* Floating Social Media Strip */
 /* Floating Social Media Strip */
 .social-media-strip {
     position: fixed;
@@ -88,52 +71,25 @@ body {
     padding: 8px;
 }
 
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .social-media-strip {
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: none; /* Remove centering */
+        flex-direction: row; /* Display horizontally */
+        padding: 10px;
+        width: 100%; /* Full width */
+        justify-content: center;
+        border-radius: 0; /* Remove border radius for mobile */
+    }
+}
+
 .social-media-strip a:hover {
     color: #FF867C; /* Change color on hover */
     transform: scale(1.2); /* Slightly enlarge on hover */
 }
 
-
-.social-media-strip a:hover {
-    color: #FF867C; /* Change color on hover */
-    transform: scale(1.2); /* Slightly enlarge on hover */
-}
-
-
-/* .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.skill-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.2em;
-    color: #FFF;
-    background-color: #FF6B5E;
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-    width: 160px;
-    justify-content: center;
-}
-
-.skill-item i {
-    font-size: 1em;
-    color: #FFF;
-}
-
-.skill-item:hover {
-    background-color: #FF867C;
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-} */
 #skills-tools-section h2 {
     text-align: center;
     color: #090030;
@@ -154,13 +110,6 @@ body {
 .skills-side, .tools-side {
     flex: 1;
 }
-
-/* .skills-side h3, .tools-side h3 {
-    text-align: center;
-    color: #FFF;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-} */
 
 .skills-grid, .tools-grid {
     display: flex;
