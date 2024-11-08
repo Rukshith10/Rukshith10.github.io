@@ -17,6 +17,7 @@ body {
     align-items: center;
     margin: 20px auto; /* Center with some margin */
     max-width: 100%;
+    overflow: hidden;
 }
 
 /* Style the iframe */
@@ -35,46 +36,7 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.certificate-viewer {
-    width: 500px;
-    text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
 
-  .certificate-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .certificate-description {
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: #555;
-  }
-
-  .navigation-buttons {
-    margin-top: 15px;
-  }
-
-  .button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin: 5px;
-    transition: background-color 0.3s;
-  }
-
-  .button:hover {
-    background-color: #0056b3;
-  }
 .container {
     max-width: 800px;
     margin: 50px auto;
@@ -182,29 +144,6 @@ body {
     align-items: flex-start;
 }
 
-/* .skill-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.2em;
-    color: #FFC107;
-    background-color: #FF6B5E;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    text-align: center;
-}
-
-.skill-item i {
-    font-size: 1.5em;
-    color: #FFF;
-} */
-
-/* .skill-item:hover {
-    background-color: #FF867C;
-    transform: scale(1.05);
-} */
-
 /* Divider Line */
 .divider-line {
     width: 2px;
@@ -304,30 +243,5 @@ img {
     border-radius: 5px;
   }
   
-  #lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #lightbox img {
-    max-width: 80%;
-    max-height: 80%;
-  }
-  
-  #close {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
+ 
 
