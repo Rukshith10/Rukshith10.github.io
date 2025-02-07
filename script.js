@@ -14,3 +14,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+
+  function moveSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+
+  // Initialize slideshow
+  slides[currentSlide].classList.add('active');
+
