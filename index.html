@@ -5,231 +5,321 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sai Rukshith — Data Engineer</title>
   <link rel="icon" href="assests/img/web_icon.ico" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Shrikhand&display=swap" rel="stylesheet" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="social-media-strip retro-border">
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <div class="social-media-strip">
     <a href="mailto:rukshith10@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
     <a href="https://www.linkedin.com/in/rukshith-10601517b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/Rukshith10" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
   </div>
 
-  <div class="container" id="intro">
-    <h1>Sai Rukshith Kalaganuri</h1>
-    <div class="card intro-card">
-      <div class="intro-content">
-        <img src="assests/img/dp.jpg" alt="Sai Rukshith" class="profile-photo" onerror="this.src='https://via.placeholder.com/150/f5e1d0/1f140e?text=SR'"/>
-        <div class="intro-text">
-          <span class="intro-role retro-border">Data Engineer</span>
-          <p>
-            Data Engineer with 3+ years of experience designing analytical databases, building automated ETL pipelines, and processing large-scale marketing data. 
-          </p>
-          <p>
-            Strong expertise in SQL, Python, Snowflake, and cloud data platforms with hands-on experience using Adverity for automated data ingestion and transformation. Passionate about scalable data modeling, reliable pipelines, and impact-driven analytics engineering.
-          </p>
-          <div class="intro-tags">
-            <span class="tag">SQL</span>
-            <span class="tag">Python</span>
-            <span class="tag">Snowflake</span>
-            <span class="tag">Adverity</span>
-            <span class="tag">AWS</span>
-            <span class="tag">ETL / ELT</span>
+  <main class="page-wrap">
+
+    <!-- INTRO -->
+    <section class="container" id="intro">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h1>Sai Rukshith <span class="filled">Kalaganuri</span></h1>
+          <span class="section-rule"></span>
+        </div>
+        <div class="card">
+          <div class="intro-content">
+            <img src="assests/img/dp.jpg" alt="Sai Rukshith" class="profile-photo"
+                 onerror="this.src='https://via.placeholder.com/150/f5e1d0/1f140e?text=SR'" />
+            <div class="intro-text">
+              <span class="intro-role">Data Engineer</span>
+              <p>Data Engineer with 3+ years of experience designing analytical databases, building automated ETL pipelines, and processing large-scale marketing data.</p>
+              <p>Strong expertise in SQL, Python, Snowflake, and cloud data platforms with hands-on experience using Adverity for automated data ingestion and transformation. Passionate about scalable data modeling, reliable pipelines, and impact-driven analytics engineering.</p>
+              <div class="intro-tags">
+                <span class="tag">SQL</span>
+                <span class="tag">Python</span>
+                <span class="tag">Snowflake</span>
+                <span class="tag">Adverity</span>
+                <span class="tag">AWS</span>
+                <span class="tag">ETL / ELT</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="container" id="work-experience">
-    <h1>Work Experience</h1>
-
-    <div class="card">
-      <div class="card-header">
-        <div>
-          <h3>Data Engineer</h3>
-          <span class="company">Omnicom Media Group (formerly IPG Mediabrands)</span>
+    <!-- WORK EXPERIENCE -->
+    <section class="container" id="work-experience">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Career</span>
+          <h1>Work <span class="filled">Experience</span></h1>
+          <span class="section-rule"></span>
         </div>
-        <div class="card-meta">
-          <span class="date-badge retro-border">May 2025 – Present</span>
-          <span class="location-badge retro-border"><i class="fas fa-map-marker-alt"></i> Pune</span>
+
+        <div class="card reveal-child">
+          <div class="card-header">
+            <div>
+              <h3>Data Engineer</h3>
+              <span class="company">Omnicom Media Group (formerly IPG Mediabrands)</span>
+            </div>
+            <div class="card-meta">
+              <span class="date-badge">May 2025 &ndash; Present</span>
+              <span class="location-badge"><i class="fas fa-map-marker-alt"></i> Pune</span>
+            </div>
+          </div>
+          <ul class="exp-list">
+            <li><i class="fas fa-caret-right"></i>Designed and structured analytical database schemas in Snowflake to support scalable reporting and downstream analytics use cases.</li>
+            <li><i class="fas fa-caret-right"></i>Built automated ETL workflows using Adverity to ingest, normalize, and transform multi-source marketing data, reducing manual effort by 40%.</li>
+            <li><i class="fas fa-caret-right"></i>Developed Python scripts to extract, process, and prepare large datasets from Snowflake, ensuring analytics-ready data for reporting.</li>
+            <li><i class="fas fa-caret-right"></i>Optimized complex SQL queries on high-volume datasets, reducing query execution time by up to 30%.</li>
+            <li><i class="fas fa-caret-right"></i>Delivered a centralized data foundation for pacing and KPI tracking, enabling visualization teams to directly consume trusted datasets.</li>
+          </ul>
+        </div>
+
+        <div class="card reveal-child">
+          <div class="card-header">
+            <div>
+              <h3>Solution Developer</h3>
+              <span class="company">Tata Technologies</span>
+            </div>
+            <div class="card-meta">
+              <span class="date-badge">Aug 2022 &ndash; Apr 2025</span>
+              <span class="location-badge"><i class="fas fa-map-marker-alt"></i> Pune</span>
+            </div>
+          </div>
+          <ul class="exp-list">
+            <li><i class="fas fa-caret-right"></i>Worked extensively with SQL and backend data workflows to support enterprise-scale applications.</li>
+            <li><i class="fas fa-caret-right"></i>Optimized scheduled data jobs and backend processes, improving pipeline stability and execution efficiency.</li>
+            <li><i class="fas fa-caret-right"></i>Performed root-cause analysis on data and performance issues, implementing long-term fixes to prevent recurrence.</li>
+            <li><i class="fas fa-caret-right"></i>Collaborated with cross-functional teams to enhance data flow consistency and system reliability.</li>
+          </ul>
+        </div>
+
+        <div class="card reveal-child">
+          <div class="card-header">
+            <div>
+              <h3>Software Engineering Intern</h3>
+              <span class="company">HighRadius</span>
+            </div>
+            <div class="card-meta">
+              <span class="date-badge">Aug 2021 &ndash; May 2022</span>
+              <span class="location-badge"><i class="fas fa-map-marker-alt"></i> Hyderabad</span>
+            </div>
+          </div>
+          <ul class="exp-list">
+            <li><i class="fas fa-caret-right"></i>Contributed to a large-scale codebase migration for a Treasury Management System in a fintech environment.</li>
+            <li><i class="fas fa-caret-right"></i>Built data preprocessing pipelines using Python (Pandas, NumPy) to prepare structured datasets for analytics and modeling.</li>
+            <li><i class="fas fa-caret-right"></i>Developed machine learning models that improved prediction accuracy by approximately 15%.</li>
+            <li><i class="fas fa-caret-right"></i>Created visual insights using Matplotlib to support data-driven product decisions.</li>
+          </ul>
         </div>
       </div>
-      <ul class="exp-list">
-        <li><i class="fas fa-caret-right"></i> Designed and structured analytical database schemas in Snowflake to support scalable reporting and downstream analytics use cases.</li>
-        <li><i class="fas fa-caret-right"></i> Built automated ETL workflows using Adverity to ingest, normalize, and transform multi-source marketing data, reducing manual effort by 40%.</li>
-        <li><i class="fas fa-caret-right"></i> Developed Python scripts to extract, process, and prepare large datasets from Snowflake, ensuring analytics-ready data for reporting.</li>
-        <li><i class="fas fa-caret-right"></i> Optimized complex SQL queries on high-volume datasets, reducing query execution time by up to 30%.</li>
-        <li><i class="fas fa-caret-right"></i> Delivered a centralized data foundation for pacing and KPI tracking, enabling visualization teams to directly consume trusted datasets.</li>
-      </ul>
-    </div>
+    </section>
 
-    <div class="card">
-      <div class="card-header">
-        <div>
-          <h3>Solution Developer</h3>
-          <span class="company">Tata Technologies</span>
+    <!-- SKILLS & TOOLS -->
+    <section class="container" id="skills-tools-section">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h1>Skills <span class="filled">&amp; Tools</span></h1>
+          <span class="section-rule"></span>
         </div>
-        <div class="card-meta">
-          <span class="date-badge retro-border">Aug 2022 – Apr 2025</span>
-          <span class="location-badge retro-border"><i class="fas fa-map-marker-alt"></i> Pune</span>
+        <div class="card skills-tools-container">
+          <div class="skills-side">
+            <h3 class="side-title">Languages &amp; Cloud</h3>
+            <div class="skill-items">
+              <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+              <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
+              <div class="skill-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+              <div class="skill-item"><i class="fas fa-cloud"></i><span>Microsoft Fabric</span></div>
+              <div class="skill-item"><i class="fab fa-linux"></i><span>Linux</span></div>
+            </div>
+          </div>
+          <div class="divider-line"></div>
+          <div class="tools-side">
+            <h3 class="side-title">Data &amp; Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item"><i class="fas fa-snowflake"></i><span>Snowflake</span></div>
+              <div class="skill-item"><i class="fas fa-database"></i><span>Oracle SQL</span></div>
+              <div class="skill-item"><i class="fas fa-bolt"></i><span>Adverity</span></div>
+              <div class="skill-item"><i class="fas fa-exchange-alt"></i><span>ETL / ELT Pipelines</span></div>
+              <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git, Jira, Asana</span></div>
+            </div>
+          </div>
         </div>
       </div>
-      <ul class="exp-list">
-        <li><i class="fas fa-caret-right"></i> Worked extensively with SQL and backend data workflows to support enterprise-scale applications.</li>
-        <li><i class="fas fa-caret-right"></i> Optimized scheduled data jobs and backend processes, improving pipeline stability and execution efficiency.</li>
-        <li><i class="fas fa-caret-right"></i> Performed root-cause analysis on data and performance issues, implementing long-term fixes to prevent recurrence.</li>
-        <li><i class="fas fa-caret-right"></i> Collaborated with cross-functional teams to enhance data flow consistency and system reliability.</li>
-      </ul>
-    </div>
+    </section>
 
-    <div class="card">
-      <div class="card-header">
-        <div>
-          <h3>Software Engineering Intern</h3>
-          <span class="company">HighRadius</span>
+    <!-- ACHIEVEMENTS -->
+    <section class="container" id="achievements">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Recognition</span>
+          <h1><span class="filled">Achieve</span>ments</h1>
+          <span class="section-rule"></span>
         </div>
-        <div class="card-meta">
-          <span class="date-badge retro-border">Aug 2021 – May 2022</span>
-          <span class="location-badge retro-border"><i class="fas fa-map-marker-alt"></i> Hyderabad</span>
-        </div>
-      </div>
-      <ul class="exp-list">
-        <li><i class="fas fa-caret-right"></i> Contributed to a large-scale codebase migration for a Treasury Management System in a fintech environment.</li>
-        <li><i class="fas fa-caret-right"></i> Built data preprocessing pipelines using Python (Pandas, NumPy) to prepare structured datasets for analytics and modeling.</li>
-        <li><i class="fas fa-caret-right"></i> Developed machine learning models that improved prediction accuracy by approximately 15%.</li>
-        <li><i class="fas fa-caret-right"></i> Created visual insights using Matplotlib to support data-driven product decisions.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container" id="skills-tools-section">
-    <div class="skills-tools-header">
-      <h1>Skills & Tools</h1>
-    </div>
-    <div class="card skills-tools-container">
-      <div class="skills-side">
-        <h3 class="side-title">Languages & Cloud</h3>
-        <div class="skill-items">
-          <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
-          <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
-          <div class="skill-item"><i class="fab fa-aws"></i><span>AWS</span></div>
-          <div class="skill-item"><i class="fas fa-cloud"></i><span>Microsoft Fabric</span></div>
-          <div class="skill-item"><i class="fab fa-linux"></i><span>Linux</span></div>
-        </div>
-      </div>
-      <div class="divider-line"></div>
-      <div class="tools-side">
-        <h3 class="side-title">Data & Tools</h3>
-        <div class="skill-items">
-          <div class="skill-item"><i class="fas fa-snowflake"></i><span>Snowflake</span></div>
-          <div class="skill-item"><i class="fas fa-database"></i><span>Oracle SQL</span></div>
-          <div class="skill-item"><i class="fas fa-bolt"></i><span>Adverity</span></div>
-          <div class="skill-item"><i class="fas fa-exchange-alt"></i><span>ETL / ELT Pipelines</span></div>
-          <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git, Jira, Asana</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" id="achievements">
-    <h1>Achievements</h1>
-    <div class="carousel-wrapper">
-      <div class="carousel-track-container">
-        <div class="carousel-track">
-          <div class="carousel-slide">
-            <div class="card achievement-card">
-              <div class="achievement-icon"><i class="fas fa-award"></i></div>
-              <h3>Spot Award — Tata Technologies</h3>
+        <div class="card slideshow">
+          <div class="ach-slide active">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-award"></i></div>
+              <h2>Spot Award &mdash; Tata Technologies</h2>
               <p>Recognized for strong ownership and consistent technical contributions in improving and stabilizing production data workflows.</p>
             </div>
           </div>
-          <div class="carousel-slide">
-            <div class="card achievement-card">
-              <div class="achievement-icon"><i class="fas fa-star"></i></div>
-              <h3>2-Year Academic Scholarship</h3>
+          <div class="ach-slide">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-star"></i></div>
+              <h2>2-Year Academic Scholarship</h2>
               <p>Awarded a merit-based scholarship at Chandigarh University for consistent academic excellence during undergraduate studies.</p>
+            </div>
+          </div>
+          <button class="prev" id="ach-prev"><i class="fas fa-arrow-left"></i></button>
+          <button class="next" id="ach-next"><i class="fas fa-arrow-right"></i></button>
+          <div class="slide-dots" id="ach-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="container" id="certificates">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Learning</span>
+          <h1><span class="filled">Certifi</span>cations</h1>
+          <span class="section-rule"></span>
+        </div>
+        <div class="card slideshow cert-slideshow">
+          <div class="cert-slide active">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-certificate"></i></div>
+              <h2>Internship Certificate</h2>
+              <p class="cert-org">HighRadius</p>
+              <p>Completed intensive training encompassing Python, structured data preparation, and Machine Learning concepts within a fintech environment.</p>
+              <span class="cert-year">2022</span>
+              <div class="cert-link-wrap">
+                <a href="#" class="cert-link" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+              </div>
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fab fa-linkedin"></i></div>
+              <h2>Prompt Engineering with ChatGPT</h2>
+              <p class="cert-org">Ronnie Sheer &middot; LinkedIn Learning</p>
+              <p>Covers prompt design principles, chain-of-thought techniques, and practical strategies for effective LLM interaction.</p>
+              <span class="cert-year">LinkedIn</span>
+              <div class="cert-link-wrap">
+                <a href="https://www.linkedin.com/learning/certificates/f49a32d3809a0c4fdc592cc0e9854a50b2c54207d07edc56b3b63bd5bc1bbdff?u=57681961" class="cert-link" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+              </div>
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-graduation-cap"></i></div>
+              <h2>Programming for Everybody</h2>
+              <p class="cert-org">University of Michigan &middot; Coursera</p>
+              <p>Foundational Python course covering variables, conditionals, loops, and functions &mdash; Getting Started with Python.</p>
+              <span class="cert-year">Coursera</span>
+              <div class="cert-link-wrap">
+                <a href="https://coursera.org/share/5857d1e2fe9583e0869fa393d9910b1b" class="cert-link" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+              </div>
+            </div>
+          </div>
+          <button class="prev" id="cert-prev"><i class="fas fa-arrow-left"></i></button>
+          <button class="next" id="cert-next"><i class="fas fa-arrow-right"></i></button>
+          <div class="slide-dots" id="cert-dots"></div>
+        </div>
+        <p class="cert-footer"><i class="fas fa-rocket"></i>&nbsp; Always learning &mdash; more Certifications and Projects on the way as I keep pushing my limits.</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="container" id="education">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Academic</span>
+          <h1><span class="filled">Edu</span>cation</h1>
+          <span class="section-rule"></span>
+        </div>
+        <div class="card reveal-child">
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-university"></i></div>
+            <div>
+              <h3>B.E. &mdash; Computer Science &amp; Engineering</h3>
+              <span class="company">Chandigarh University, Chandigarh</span>
+              <p class="edu-meta">Graduated: May 2022 &nbsp;&middot;&nbsp; CGPA: 7.27</p>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal-child">
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div>
+              <h3>Secondary Education</h3>
+              <span class="company">Saint Claire High School, Godavarikhani</span>
+              <p class="edu-meta">Graduated: 2016 &nbsp;&middot;&nbsp; CGPA: 9.7</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="container" id="certificates">
-    <h1>Certifications</h1>
-    <div class="card cert-card">
-      <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-      <div class="cert-details">
-        <h3>Internship Certificate — HighRadius</h3>
-        <p>Completed intensive training encompassing Python, structured data preparation, and Machine Learning concepts within a fintech environment.</p>
-        <span class="cert-year retro-border">2022</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" id="education">
-    <h1>Education</h1>
-    <div class="card">
-      <div class="edu-item">
-        <div class="edu-icon"><i class="fas fa-university"></i></div>
-        <div>
-          <h3>B.E. — Computer Science & Engineering</h3>
-          <span class="company">Chandigarh University, India</span>
-          <p class="edu-meta">Graduated: May 2022 &nbsp;·&nbsp; CGPA: 7.27</p>
+    <!-- PERSONAL INTERESTS -->
+    <section class="container" id="interests">
+      <div class="inner">
+        <div class="section-header">
+          <span class="section-label">Beyond Work</span>
+          <h1>Personal <span class="filled">Interests</span></h1>
+          <span class="section-rule"></span>
+        </div>
+        <div class="card slideshow">
+          <div class="slide active">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-futbol"></i></div>
+              <h2>Football</h2>
+              <p>Fascinated by team dynamics, strategy, and the excitement of the game. Inspired by vision, agility, and precision on and off the field.</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-camera"></i></div>
+              <h2>Photography</h2>
+              <p>Enjoy capturing stories and emotions through the lens &mdash; focusing on nature, candid moments, and travel portraits.</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-inner">
+              <div class="slide-icon"><i class="fas fa-mobile-alt"></i></div>
+              <h2>Technology</h2>
+              <p>Enthusiastic about hardware advancements, especially in processing power and computational photography. Always following the latest in consumer tech.</p>
+            </div>
+          </div>
+          <button class="prev" id="slide-prev"><i class="fas fa-arrow-left"></i></button>
+          <button class="next" id="slide-next"><i class="fas fa-arrow-right"></i></button>
+          <div class="slide-dots" id="slide-dots"></div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="container" id="interests">
-    <h1>Personal Interests</h1>
-    <div class="card slideshow retro-border">
-
-      <div class="slide active">
-        <div class="slide-inner">
-          <div class="slide-icon"><i class="fas fa-futbol"></i></div>
-          <h2>Football</h2>
-          <p>Fascinated by team dynamics, strategy, and the excitement of the game. Inspired by vision, agility, and precision on and off the field.</p>
+    <!-- RESUME -->
+    <section class="container" id="resume">
+      <div class="inner">
+        <div class="card resume-card">
+          <h3>Looking for my complete resume?</h3>
+          <a href="assests/Certificates/Rukshith_Resume.pdf" download class="download-btn">
+            <i class="fas fa-download"></i> Download PDF
+          </a>
         </div>
       </div>
+    </section>
 
-      <div class="slide">
-        <div class="slide-inner">
-          <div class="slide-icon"><i class="fas fa-camera"></i></div>
-          <h2>Photography</h2>
-          <p>Enjoy capturing stories and emotions through the lens — focusing on nature, candid moments, and travel portraits.</p>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-inner">
-          <div class="slide-icon"><i class="fas fa-mobile-alt"></i></div>
-          <h2>Technology</h2>
-          <p>Enthusiastic about hardware advancements, especially in processing power and computational photography. Always following the latest in consumer tech.</p>
-        </div>
-      </div>
-
-      <button class="prev retro-border" id="slide-prev"><i class="fas fa-arrow-left"></i></button>
-      <button class="next retro-border" id="slide-next"><i class="fas fa-arrow-right"></i></button>
-      <div class="slide-dots" id="slide-dots"></div>
-    </div>
-  </div>
-
-  <div class="container" id="resume">
-    <div class="card resume-card">
-      <h3 style="text-align: center; margin-bottom: 10px;">Looking for my complete resume?</h3>
-      <a href="assests/Certificates/Rukshith_Resume.pdf" download class="download-btn retro-border">
-        <i class="fas fa-download"></i> Download PDF
-      </a>
-    </div>
-  </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
